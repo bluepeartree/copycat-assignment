@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  position: relative;
+}
+
+header {
+  overflow: hidden;
+  background-color: #06D6A0;
+  color: white;
+  display: block;
+  width:100%;
+  padding: 25px;
+  position: absolute;
+  top:0;
+  left:0;
+
+}
+
+.header-title{
+  display: inline;
+  float:left;
+  font-size: 1.2em;
+  font-weight: bolder;
+  width: 50%;
+}
+
+ul.header-links {
+  float: right;
+  margin:0;
+  padding:0;
+}
+
+.header-links li {
+  display: inline;
+  list-style-type: none;
+  font-size: 1em;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+header::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+main {
+  width: 75%;
+  margin:0% auto;
+  display: block;
+  margin-top: 86px;
+  margin-bottom: 55px;
+}
+
+#welcome-banner{
+  overflow: hidden;
+  display: block;
+  background-color: #26547C;
+  border-bottom: solid #26547C;
+  color: white;
+}
+
+.welcome-image img{
+  overflow: hidden;
+  width:60%;
+  float:left;
+  margin:0px;
+}
+
+.welcome-text {
+  float:right;
+  width:40%;
+  text-align: center;
+  margin: 14% auto;
+}
+
+h1 {
+  margin: 0% auto;
+  padding: 0;
+}
+
+#intro-text {
+  background-color: #FFD166;
+  padding: 2%;
+  overflow: hidden;
+}
+
+#intro-text.intro-text-speech {
+  line-height: 100%;
+  font-size: 0.67em;
+}
+
+#products {
+  background-color: #F2F2F2;
+  padding:2%;
+  overflow: hidden;
+  display: block;
+}
+
+div#product-images {
+    display: inline-block;
+    list-style-type: none;
+    float: left;
+    width:90%;
+}
+
+li.product-item img {
+    display: inline-block;
+    overflow: hidden;
+    float:left;
+    list-style-type: none;
+    max-width: 30%;
+    margin: 1%;
+    border: solid black;
+}
+
+#about {
+  background-color: #26547C;
+  padding:1%;
+  display: block;
+}
+
+.about-headings {
+    margin: 3% ;
+    padding: 1%;
+}
+
+.about-headings h3 {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    color:red;
+    width:30%;
+  }
+
+.about-text {
+  color:white;
+  padding: 1%;
+}
+
+footer {
+  overflow: hidden;
+  width: 100%;
+  background-color: #06D6A0;
+  text-align: right;
+  padding:1%;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
